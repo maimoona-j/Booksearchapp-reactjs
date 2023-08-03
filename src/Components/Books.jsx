@@ -47,7 +47,7 @@ export default function Books({ searchTerm }) {
     {
       img: book5,
       author: "Peter Attia MD  ",
-      title: "Outlive: The Science and Art of Longevity",
+      title: "Outlive: The Science and Art  ",
       id: 5,
     },
     {
@@ -100,7 +100,7 @@ export default function Books({ searchTerm }) {
         {filteredBooks.map((item) => (
           <div
             key={item.id}
-            className="border border-black rounded p-3 shadow-md "
+            className="border border-teal-800 rounded p-3 shadow-md "
             data-aos="fade-up"
           >
             <img
