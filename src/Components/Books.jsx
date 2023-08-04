@@ -111,7 +111,7 @@ export default function Books({ searchTerm }) {
             <div className="p-2">
               <h3 className="text-lg font-bold">{item.title}</h3>
               <p className="text-blue-400">{item.author}</p>
-              <button className="bg-teal-700 text-white py-1 w-56 ml-6 px-4 mt-2 rounded">
+              <button className="bg-teal-700 hover:bg-gray-500 hover:text-black text-white py-1 w-56 ml-6 px-4 mt-2 rounded">
                 View
               </button>
             </div>
